@@ -1,0 +1,30 @@
+name: Validate component contract
+
+on:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate public evidence contract
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out component
+        uses: actions/checkout@v6
+
+      - name: Check out organization validator
+        uses: actions/checkout@v6
+        with:
+          repository: draykerdk/.github
+          ref: master
+          path: .drayker-governance
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+
+      - name: Validate component contract
+        run: ruby .drayker-governance/scripts/validate-component.rb .drayker/component.yml
