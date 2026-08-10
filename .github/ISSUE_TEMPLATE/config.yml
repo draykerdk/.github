@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Project and contribution map
+    url: https://drayker.org/#org/contrib/projects
+    about: Find the repository and public entry point for each component.
+  - name: General Forum
+    url: https://github.com/draykerdk/general-forum/issues/new
+    about: Use this when the subject does not have a clear repository yet.

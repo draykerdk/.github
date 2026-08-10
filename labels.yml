@@ -1,0 +1,60 @@
+- name: open-function
+  color: "5CE02E"
+  description: Concrete contribution small enough for one person to deliver.
+- name: motion
+  color: "B388FF"
+  description: Research or governance proposal for documented discussion.
+- name: claimed
+  color: "6A6A80"
+  description: A contributor has announced that they are working on this issue.
+- name: needs-review
+  color: "E6B816"
+  description: Delivered work is waiting for public review.
+- name: good first issue
+  color: "00D0FF"
+  description: Entry issue that requires little prior project context.
+- name: help wanted
+  color: "FF5500"
+  description: Maintainers are explicitly requesting outside participation.
+- name: documentation
+  color: "00D0FF"
+  description: Documentation, dates, links, translations or public explanations.
+- name: volunteer-introduction
+  color: "0EC1E9"
+  description: Public introduction generated from the volunteer journey.
+- name: partnership
+  color: "E6B816"
+  description: Public, non-confidential funding or partnership proposal.
+- name: skill:code
+  color: "5CE02E"
+  description: Code or implementation skill.
+- name: skill:research
+  color: "B388FF"
+  description: Research, modelling or formal review skill.
+- name: skill:design
+  color: "FF5500"
+  description: Product, visual or interaction design skill.
+- name: skill:documentation
+  color: "00D0FF"
+  description: Documentation, editing or translation skill.
+- name: skill:governance
+  color: "E6B816"
+  description: Governance, process or institutional analysis skill.
+- name: level:entry
+  color: "5CE02E"
+  description: No prior ecosystem context beyond the linked sources.
+- name: level:intermediate
+  color: "00D0FF"
+  description: Some component or domain context is expected.
+- name: level:advanced
+  color: "B388FF"
+  description: Deep technical, research or governance context is expected.
+- name: effort:small
+  color: "5CE02E"
+  description: Expected to fit within a short focused contribution.
+- name: effort:medium
+  color: "E6B816"
+  description: Expected to require several focused work sessions.
+- name: effort:large
+  color: "FF5500"
+  description: Needs fragmentation before it can become an open function.

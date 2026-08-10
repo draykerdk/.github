@@ -1,0 +1,45 @@
+name: Motion or research proposal
+description: Propose a documented change for discussion.
+title: "[Motion] "
+labels:
+  - motion
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem or requirement does this proposal address?
+    validations:
+      required: true
+  - type: textarea
+    id: known
+    attributes:
+      label: Known evidence
+      description: What is known, and which sources support it?
+    validations:
+      required: true
+  - type: textarea
+    id: assumptions
+    attributes:
+      label: Assumptions and uncertainty
+      description: What remains assumed or unknown?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and failure modes
+    validations:
+      required: true
+  - type: textarea
+    id: evidence_change
+    attributes:
+      label: What evidence would change the proposal?
+    validations:
+      required: true
