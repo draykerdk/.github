@@ -1,6 +1,16 @@
 - name: open-function
   color: "5CE02E"
   description: Concrete contribution small enough for one person to deliver.
+- name: assembly
+  color: "B388FF"
+  description: Monthly assembly cycle: opens the cycle and collects claims, requests and proposed changes.
+- name: claim
+  color: "5CE02E"
+  description: Claim of a delivered function (DAF-000 §3.1), public and contestable in the thread.
+- name: resource-request
+  color: "E6B816"
+  description: Request for federation resources (DAF-000 §6); support is a last resort.
+
 - name: motion
   color: "B388FF"
   description: Research or governance proposal for documented discussion.
