@@ -14,7 +14,7 @@ Closes #
 
 ## Validation
 
-- [ ] I targeted `master`; there is no active `community-review` branch.
+- [ ] I targeted `master`. There is no active `community-review` branch.
 - [ ] I ran the relevant repository checks.
 - [ ] I did not add credentials, private personal data or internal project-management fields.
 - [ ] Architecture or research claims are not presented as operational without reproducible evidence.

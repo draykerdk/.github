@@ -35,10 +35,10 @@ Do not add `open-function` to a speculative placeholder. The issue needs a concr
 
 When changing documentation:
 
-- use future tense for intended architecture;
-- state what evidence exists;
-- name missing specifications plainly;
-- do not publish internal project-management status;
+- use future tense for intended architecture.
+- state what evidence exists.
+- name missing specifications plainly.
+- do not publish internal project-management status.
 - do not imply operational financial, medical, identity or global infrastructure where none exists.
 
 Public documentation is written in English unless the repository explicitly maintains another canonical language. Translations should identify the source revision they follow.
