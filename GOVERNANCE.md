@@ -2,9 +2,9 @@
 
 ## Current phase
 
-Drayker is in a founding research and development phase. The DAF, councils and automated or federated decision systems described across the ecosystem are proposed governance architecture. They are not represented here as fully operating institutions.
+Drayker is in a founding research and development phase. The DAF, councils, PAP and automated or federated decision systems described across the ecosystem are proposed architecture. They are not represented here as fully operating institutions. DAF is a transitional scaffold, not Drayker's final constitution.
 
-Public collaboration is open. The current repository workflow uses GitHub issues, branches, pull requests and the Git history.
+Public collaboration is open. The current repository workflow uses GitHub issues, branches, pull requests and the Git history. Drayker is meant to be constituted by members rather than consumed by users, but no operational membership process or member-rights charter exists yet; contribution does not silently create or deny either.
 
 ## Founding stewardship
 
@@ -60,4 +60,4 @@ This bootstrap arrangement has no automatic date. It changes only through a vers
 - how bypass access changes.
 - how the previous arrangement can be audited.
 
-The expected direction is progressively distributed review as real coordination capacity appears. The existence of a proposed DAF, council or DAO is not sufficient on its own.
+The expected direction is a versioned member constitution with progressively distributed review as real coordination capacity appears. Dk may support memory, modelling and recommendations, but agents do not acquire constitutional authority. DAF may carry transitional cooperation; PAP, councils and other structures may progressively absorb durable functions only after their rules and member accountability are explicit. The existence of a proposed DAF, council, DAO or technical deployment is not sufficient on its own.
