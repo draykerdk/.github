@@ -1,5 +1,15 @@
 # Drayker governance
 
+## Governance horizon
+
+Drayker's governance is designed to evolve through three explicit phases. These are architectural boundaries, not a schedule or a claim that later institutions already operate.
+
+1. **Founding phase — current.** Research, documentation and repository maintenance use GitHub, with the attributable founding-steward bypass documented below.
+2. **Transitional scaffold — DAF and DFMP.** Bounded experiments test decentralized coordination, shared-resource rules and technical peer review. A future DLT substrate may be used provisionally to develop and test Drayker's own infrastructure; deployment alone grants no permanent constitutional authority.
+3. **Durable member constitution — PAP, embassies and sovereign members.** PAP is expected to absorb validated functions as DAF formally dissolves. Members govern through a versioned constitution; Dk Personal may continuously represent a person only within explicit delegation, while bilateral embassies mediate accountable territorial relationships with sovereign states.
+
+The transition between phases requires versioned rules, evidence and an auditable migration. DAF points are transitional records and must not become inherited or permanent authority inside PAP.
+
 ## Current phase
 
 Drayker is in a founding research and development phase. The DAF, councils, PAP and automated or federated decision systems described across the ecosystem are proposed architecture. They are not represented here as fully operating institutions. DAF is a transitional scaffold, not Drayker's final constitution.
