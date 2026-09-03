@@ -1,10 +1,20 @@
 # Drayker governance
 
+## Governance horizon
+
+Drayker's governance is designed to evolve through three explicit phases. These are architectural boundaries, not a schedule or a claim that later institutions already operate.
+
+1. **Founding phase — current.** Research, documentation and repository maintenance use GitHub, with the attributable founding-steward bypass documented below.
+2. **Transitional scaffold — DAF and DFMP.** Bounded experiments test decentralized coordination, shared-resource rules and technical peer review. A future DLT substrate may be used provisionally to develop and test Drayker's own infrastructure; deployment alone grants no permanent constitutional authority.
+3. **Durable member constitution — PAP, embassies and sovereign members.** PAP is expected to absorb validated functions as DAF formally dissolves. Members govern through a versioned constitution; Dk Personal may continuously represent a person only within explicit delegation, while bilateral embassies mediate accountable territorial relationships with sovereign states.
+
+The transition between phases requires versioned rules, evidence and an auditable migration. DAF points are transitional records and must not become inherited or permanent authority inside PAP.
+
 ## Current phase
 
-Drayker is in a founding research and development phase. The DAF, councils and automated or federated decision systems described across the ecosystem are proposed governance architecture. They are not represented here as fully operating institutions.
+Drayker is in a founding research and development phase. The DAF, councils, PAP and automated or federated decision systems described across the ecosystem are proposed architecture. They are not represented here as fully operating institutions. DAF is a transitional scaffold, not Drayker's final constitution.
 
-Public collaboration is open. The current repository workflow uses GitHub issues, branches, pull requests and the Git history.
+Public collaboration is open. The current repository workflow uses GitHub issues, branches, pull requests and the Git history. Drayker is meant to be constituted by members rather than consumed by users, but no operational membership process or member-rights charter exists yet; contribution does not silently create or deny either.
 
 ## Founding stewardship
 
@@ -60,4 +70,4 @@ This bootstrap arrangement has no automatic date. It changes only through a vers
 - how bypass access changes.
 - how the previous arrangement can be audited.
 
-The expected direction is progressively distributed review as real coordination capacity appears. The existence of a proposed DAF, council or DAO is not sufficient on its own.
+The expected direction is a versioned member constitution with progressively distributed review as real coordination capacity appears. Dk may support memory, modelling and recommendations, but agents do not acquire constitutional authority. DAF may carry transitional cooperation; PAP, councils and other structures may progressively absorb durable functions only after their rules and member accountability are explicit. The existence of a proposed DAF, council, DAO or technical deployment is not sufficient on its own.
