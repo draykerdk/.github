@@ -4,7 +4,7 @@ Drayker is building civilizational infrastructure in which people keep creating,
 
 That takes a **method** for composing work, **Dk** as distributed intelligence, **Dknowledge** as distributed memory, **PAP** as the environment where intentions become projects and applications, and an evolving **member constitution** for holding decisions and resources in common. Dk's technical name is Distributed Kernel; that describes its architecture, not the whole of what it is.
 
-The public ecosystem contains methods, architecture proposals, documentation sites and a small number of operational publishing components. A repository is not, by itself, evidence that the system it describes has been implemented.
+The public ecosystem contains methods, architecture proposals, documentation sites and a small number of operational publishing components. Governance is explicitly evolutionary: a founding GitHub phase, bounded DAF/DFMP experiments, and a durable member constitution in which validated functions migrate into PAP. A repository is not, by itself, evidence that the system or governance phase it describes has been implemented.
 
 - [drayker.com](https://drayker.com). Institutional presentation
 - [drayker.org](https://drayker.org). Projects, documentation and contribution
