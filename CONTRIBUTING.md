@@ -1,50 +1,44 @@
 # Contributing to Drayker
 
-Drayker accepts research, documentation, design, code, review, translation, governance analysis and well-modelled criticism.
+Thank you for your interest in contributing to the Drayker ecosystem. Drayker is an open, voluntary civilizational R&D initiative building sovereign computing, economic capacity, and human-centric cognition.
 
-Participation is primarily voluntary and does not imply compensation, funding, employment, ownership, tokens or future access to products or services.
+---
 
-## Choose the right repository
+## 1. Guiding Principles
 
-Open the issue beside the material it concerns. If the destination is unclear, use the [General Forum](https://github.com/draykerdk/general-forum/issues/new).
+All contributions and discussions within the Drayker organization are governed by two foundational axioms:
 
-The project map and component pages are available at [drayker.org](https://drayker.org/#org/contrib/projects).
+### Principle 07: Kind to people, relentless with ideas
+- **Treat participants with dignity:** We do not tolerate personal attacks, ad hominem rhetoric, condescension, or identity-based exclusion. Humans are sovereign ends, never instruments.
+- **Treat ideas with relentless empirical rigor:** Arguments must withstand rigorous scrutiny. Code must be tested. Cryptography must be audited. Assumptions must be questioned. Vague appeals to authority, marketing hype, or ungrounded claims are rejected.
 
-## Contribution flow
+### Principle 08: Embodied human sovereignty
+- Automated tools, AI agents, and algorithmic models assist our cognition, but constitutional authority and ultimate responsibility remain inalienably human.
 
-1. **Open or find an issue.** A useful issue states the problem, evidence, boundaries and expected result.
-2. **Claim the work.** Comment with a short plan. If an existing claim becomes inactive, discuss it in the issue before taking over.
-3. **Create one branch per contribution.**
+---
 
-   ```bash
-   git switch -c fn/<issue-number>-<short-name>
-   ```
+## 2. Ways to Contribute
 
-4. **Keep the work traceable.** Link commits and the pull request to the issue.
-5. **Open a pull request targeting `master`.** There is no active `community-review` branch.
-6. **Run the repository checks and address the discussion.**
-7. **Merge.** During the founding phase, [Hyadhuad](https://github.com/Hyadhuad) may merge, amend or integrate directly as documented in [GOVERNANCE.md](./GOVERNANCE.md).
+1. **Architectural & Protocol Proposals:**
+   Major systemic changes, protocol additions, or constitutional adjustments must follow the [DFMP (Drayker Foundation Movement Proposals)](https://dfmp.drayker.org) format. Open an issue in `draykerdk/dfmp` before writing large PRs.
+2. **Code & Implementations:**
+   Fixes, performance optimizations, protocol implementations, and tooling across our repositories. Ensure all code conforms to clean, functional paradigms with explicit types and zero external bloat.
+3. **Documentation & Epistemology:**
+   Refinements to technical specifications, conceptual clarifications, translations, and guides.
+4. **Open Science:**
+   Empirical research, mathematical modeling, and biomedical exploration under [Open Science](https://open-science.drayker.org).
 
-## Open functions
+---
 
-An issue carrying `open-function` is intended to be small enough for one contributor to deliver. Optional `skill:*`, `level:*` and `effort:*` labels improve discovery.
+## 3. Pull Request Guidelines
 
-Do not add `open-function` to a speculative placeholder. The issue needs a concrete deliverable and an entry point.
+- **Atomic changes:** Keep PRs focused on a single concern. Large multifaceted changes should be split or introduced via DFMP.
+- **Commit messages:** Write clear, concise commit messages explaining *what* changed and *why*.
+- **Checks and Verification:** Ensure all CI checks, lints, and type checks pass locally before requesting review.
+- **Licensing & Attribution:** Contributions to public repositories are licensed under the corresponding repository's open-source license (typically MIT or CC BY 4.0). Your authorship and lineage remain permanently preserved in Git history.
 
-## Public claims
+---
 
-When changing documentation:
+## 4. Operational Authority
 
-- use future tense for intended architecture.
-- state what evidence exists.
-- name missing specifications plainly.
-- do not publish internal project-management status.
-- do not imply operational financial, medical, identity or global infrastructure where none exists.
-
-Public documentation is written in English unless the repository explicitly maintains another canonical language. Translations should identify the source revision they follow.
-
-## Reviews
-
-Review the contribution against its stated scope and evidence. Disagreement is useful when it is specific, sourced and directed at the work rather than the person.
-
-For security-sensitive reports, follow [SECURITY.md](./SECURITY.md) instead of publishing exploit details.
+During the current founding phase, pull requests are reviewed and merged under the authority specified in [GOVERNANCE.md](./GOVERNANCE.md). Technical councils provide peer review and feedback.

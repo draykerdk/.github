@@ -1,73 +1,92 @@
-# Drayker governance
+# Drayker Organization Governance
 
-## Governance horizon
+This document defines the governance structure of the Drayker organization (`draykerdk`), its current founding-phase operational model, the constitutional separation of powers, and the exact criteria required for the transition to full member sovereignty.
 
-Drayker's governance is designed to evolve through three explicit phases. These are architectural boundaries, not a schedule or a claim that later institutions already operate.
+---
 
-1. **Founding phase — current.** Research, documentation and repository maintenance use GitHub, with the attributable founding-steward bypass documented below.
-2. **Transitional scaffold — DAF and DFMP.** Bounded experiments test decentralized coordination, shared-resource rules and technical peer review. A future DLT substrate may be used provisionally to develop and test Drayker's own infrastructure; deployment alone grants no permanent constitutional authority.
-3. **Durable member constitution — PAP, embassies and sovereign members.** PAP is expected to absorb validated functions as DAF formally dissolves. Members govern through a versioned constitution; Dk Personal may continuously represent a person only within explicit delegation, while bilateral embassies mediate accountable territorial relationships with sovereign states.
+## 1. Current Phase: Founding R&D
 
-The transition between phases requires versioned rules, evidence and an auditable migration. DAF points are transitional records and must not become inherited or permanent authority inside PAP.
+Drayker is currently in its **founding research and development phase**. 
 
-## Current phase
+During this phase:
+- **Founding Architectural Stewardship:** Direct integration authority across core repositories is held by the founder, Tiago Hyadhuad (`@tiagohyadhuad`).
+- **Transparency and Lineage:** All decisions, architecture specifications, and protocol iterations are published in public Git history. No stealth governance, backroom commitments, or private forks exist.
+- **Voluntary Public Entry:** Contribution is open to all researchers, engineers, and thinkers via public pull requests, issues, and [DFMP (Drayker Foundation Movement Proposals)](https://dfmp.drayker.org).
 
-Drayker is in a founding research and development phase. The DAF, councils, PAP and automated or federated decision systems described across the ecosystem are proposed architecture. They are not represented here as fully operating institutions. DAF is a transitional scaffold, not Drayker's final constitution.
+Founding authority is strictly functional, not absolute: it exists solely to construct, bootstrap, and stress-test the civilizational infrastructure without bureaucratic deadlock until decentralized constitutional mechanisms are operational.
 
-Public collaboration is open. The current repository workflow uses GitHub issues, branches, pull requests and the Git history. Drayker is meant to be constituted by members rather than consumed by users, but no operational membership process or member-rights charter exists yet; contribution does not silently create or deny either.
+---
 
-## Founding stewardship
+## 2. The Constitutional Architecture: Separation of Powers
 
-During this phase, the authority described as the Embassy and Ambassador is exercised on GitHub exclusively by the account [Hyadhuad](https://github.com/Hyadhuad).
+As established in *Do animal à superinteligência* (Chapters 40–49), sustainable human-technological systems require institutional checks that prevent operational, algorithmic, or plutocratic capture. Drayker’s long-term architecture distributes authority across three distinct branches:
 
-The founding steward may:
-
-- create, reorganize and maintain repositories.
-- commit or push directly to `master`.
-- merge a pull request without an external approval.
-- bypass required pull-request and status-check rules when necessary.
-- make release, security, architecture and consistency corrections.
-
-Direct integration is an explicit bootstrap exception, not an undocumented shortcut. Changes must remain attributable in Git history. Force-pushes and deletion of `master` are not part of this exception.
-
-No other owner, administrator, maintainer, team or application inherits this bypass automatically.
-
-## Public contribution path
-
-Everyone else uses the same visible path:
-
-```text
-issue or open function
-  -> claim in the issue
-  -> fn/<issue-number>-<short-name>
-  -> pull request to master
-  -> automated checks and discussion
-  -> merge
+```
+                      ┌──────────────────────────────────────┐
+                      │        CONSTITUTIONAL CHARTER        │
+                      │  (Human Primacy & Inalienable Rights)│
+                      └──────────────────┬───────────────────┘
+                                         │
+         ┌───────────────────────────────┼───────────────────────────────┐
+         ▼                               ▼                               ▼
+┌───────────────────┐          ┌───────────────────┐          ┌────────────────────┐
+│   OPERATIONAL /   │          │    EPISTEMIC /    │          │  CONSTITUTIONAL /  │
+│   COORDINATION    │◄────────►│ TECHNICAL COUNCILS│◄────────►│  JUDICIAL PANEL    │
+│  (Implementation) │          │   (Peer Review)   │          │(Checks & Balances) │
+└───────────────────┘          └───────────────────┘          └────────────────────┘
+         │                               │                               │
+         │ Executes initiatives,         │ Evaluates models,             │ Independent keys;
+         │ maintains code, ships         │ audits cryptographic safety,  │ sortition-selected;
+         │ protocols & infrastructure.   │ enforces epistemic rigor.     │ stays abusive orders,
+         │                               │                               │ prevents algorithmic
+         │                               │                               │ or plutocratic capture.
 ```
 
-There is no active `community-review` branch. Historical documents that mention one do not override this governance file.
+### 2.1 The Operational Branch (Coordination & Execution)
+Responsible for day-to-day engineering, repository maintenance, release tagging, and execution of active projects. In the founding phase, this is stewarded directly by the founder and key contributors.
 
-An approval count is not required during the founding phase. The steward may merge work after the relevant checks and discussion, and may request further review whenever the risk warrants it.
+### 2.2 The Epistemic Branch (Technical Advisory Councils — `advices`)
+Specialized groups formed by domain contributors to conduct peer review on:
+- Cryptographic primitives and zero-knowledge validity.
+- Cognitive architectures, attention-sovereign agents, and protocol boundaries.
+- Economic parameters, Dktron reserve ratios, and capacity allocation models.
 
-## Evidence and limits
+Councils do not rule by fiat; their evaluations are recorded transparently as technical advisories and validation manifests.
 
-Public repositories distinguish intent from evidence:
+### 2.3 The Protective Branch (Independent Member Judicial Panel)
+To ensure that operators and autonomous AI agents never wield unchallengeable authority over human participants:
+- **Sortition and Rotation:** The Judicial Panel is composed of verified members selected via cryptographic sortition, rotating regularly to prevent entrenched power blocs.
+- **Key Autonomy:** The Panel holds independent cryptographic signing keys that are strictly separated from operational repository credentials and automated execution daemons.
+- **Protective Competencies:**
+  - Emergency suspension (stay) of operational decisions, automated model upgrades, or algorithmic revocations that threaten core human constitutional guarantees.
+  - Adjudication of grievances under the **Situated Contextual Veto** (protecting directly affected individuals against systemic externalities).
+  - Power to initiate steward replacement proceedings in the event of proven constitutional violation, malicious capture, or irremediable conflict of interest.
 
-- a proposal is not an implementation.
-- a deployed documentation site is evidence only for that documentation site.
-- a prototype is not an operational global system.
-- research involving identity, value or health is not a financial product, identity service or medical service.
+---
 
-Internal ownership, funding, sprint and portfolio-management data are not public governance metadata.
+## 3. Anti-Plutocratic Guarantee
 
-## Transition
+Drayker explicitly rejects tokenized or wealth-weighted governance:
+1. **Dktron is Capacity, Not Equity:** Dktron is an internal capacity accounting unit. Holding Dktron grants zero voting shares, zero board seats, and zero legislative authority over the organization.
+2. **Reputation is Contextual:** Contribution history and reputation reflect verified empirical work in specific domains; they cannot be bought, mortgaged, transferred, or converted into unilateral political veto power.
+3. **One Member, Inalienable Dignity:** Constitutional oversight rests on human presence and verified participation, never on financial capitalization.
 
-This bootstrap arrangement has no automatic date. It changes only through a versioned update to this file that explains:
+---
 
-- which authority is being delegated.
-- who can exercise it.
-- which review and legitimacy process is operational.
-- how bypass access changes.
-- how the previous arrangement can be audited.
+## 4. Transition Criteria (Exit from Founding Phase)
 
-The expected direction is a versioned member constitution with progressively distributed review as real coordination capacity appears. Dk may support memory, modelling and recommendations, but agents do not acquire constitutional authority. DAF may carry transitional cooperation; PAP, councils and other structures may progressively absorb durable functions only after their rules and member accountability are explicit. The existence of a proposed DAF, council, DAO or technical deployment is not sufficient on its own.
+The founding phase will formally terminate, and authority will transfer entirely to the separated constitutional branches, when all of the following conditions are empirically satisfied:
+
+1. **Autonomous Presence Verification (PAP):** The Proof of Authenticated Presence protocol achieves stable cryptographic validation without centralized biometric or cloud identity providers.
+2. **Sortition Protocol Deployment:** Cryptographic, verifiable sortition tooling is deployed to select and rotate members of the Independent Judicial Panel.
+3. **Operational Key Separation:** Repository signing keys, infrastructure access, and contract updates are transferred to multi-party threshold schemes co-signed by the Judicial Panel and Operational stewards.
+4. **Federated Economic Reserves:** The 3-sphere Dktron capacity model (`value-unit`) is self-balancing with live reserves and automated non-plutocratic accounting.
+5. **Ratification of the Drayker Covenant:** A formal public ratification process by active members adopting the Constitutional Charter.
+
+Until these criteria are fully met, founding stewardship ensures coherence, speed, and architectural fidelity.
+
+---
+
+## 5. Amendments
+
+During the founding phase, this document may be amended by the founder following public discussion in GitHub issues or DFMP proposals. Every amendment must explicitly preserve the non-negotiable principle: **Kind to people, relentless with ideas; human sovereignty over all machine systems.**
