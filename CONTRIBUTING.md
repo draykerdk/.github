@@ -73,7 +73,7 @@ When changing documentation:
 - do not publish internal project-management status.
 - do not imply operational financial, medical, identity or global infrastructure where none exists.
 
-Public documentation is written in English unless the repository explicitly maintains another canonical language. Translations should identify the source revision they follow.
+Public documentation is written in English, the canonical language. Translations are not maintained by hand: readers use automatic translation, and native translation and localization are planned for the Drayker sites.
 
 ---
 

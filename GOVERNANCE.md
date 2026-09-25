@@ -8,7 +8,7 @@ The architecture follows *Do animal à superinteligência* (Hyadhuad), chapters 
 
 ## 1. Governance horizon
 
-Drayker's governance is designed to evolve through three explicit phases. These are architectural boundaries, not a schedule or a claim that later institutions already operate.
+Drayker's governance is designed to evolve through three explicit phases. These are architectural boundaries, not a schedule or a claim that later institutions already operate. The objective Drayker gives itself is to be consolidated, with Dk Global fully operating, by 2033; each phase is still measured by what works, not by the date (see [Direction](https://dknowledge.drayker.org/roadmap/DIRECTION/)).
 
 1. **Founding phase — current.** The initial authority belongs to the **Embassy of Drayker**, the core that founds the construction and answers for it until the system works as it was designed. On GitHub, that authority is exercised as documented in section 2.
 2. **Transitional scaffold — DAF and DFMP.** The [DAF](https://daf.drayker.org) is the first phase of distributing the founding authority: a bounded, federative structure for coordination, contribution and resources while the durable environment cannot yet carry those functions. [DFMP](https://dfmp.drayker.org) is the proposal process through which papers are discussed, validated and re-evaluated. A token-economy phase of the DAF may use an external substrate such as ICP provisionally; it is not a constitutional dependency.
@@ -109,7 +109,11 @@ The supreme instance of human appeal, so that operators and artificial agents �
 
 A review ends with evidence of compliance, not merely with a new answer from the agent.
 
-### 3.4 What only members decide
+### 3.4 The veto chain
+
+Vetoes, mandate revocations, ratification signatures and panel orders are recorded as signed entries in an append-only, hash-linked chain replicated across the [Dk Network](https://dknetwork.drayker.org) and verified by independent nodes, as specified in [UID](https://uid.drayker.org). Each entry points at the cryptographic address of the decision it concerns, so an action executed against a valid veto is detectable by any node. Dk Global can append proposals to the chain, never ratifications: those require member signatures and independent keys that no Dk process holds.
+
+### 3.5 What only members decide
 
 Dk Global decides within the space the constitution gives it. Members take part in each decision through representation, proposal and veto, and the boundary of that autonomy belongs to the members (chapter 47). Decisions on security and defense, on how much of a prediction is enough to restrict someone's freedom, and on changes to who holds which competence require prior constitutional deliberation.
 
@@ -144,10 +148,11 @@ The founding phase ends, and its authority transfers to the separated constituti
 
 1. **Presence and personhood verification ([UID](https://uid.drayker.org)):** members can authenticate and prove the credentials an interaction requires without a centralized biometric or cloud identity provider, with recovery and human recourse.
 2. **Sortition tooling:** verifiable sortition selects and rotates the members of the judicial panel.
-3. **Operational key separation:** repository signing keys, infrastructure access and contract updates move to multi-party threshold schemes co-signed by the judicial panel and the operational stewards.
-4. **Accountable value layer:** the three-sphere Dktron model ([`value-unit`](https://value.drayker.org)) runs as a reconciled ledger with verifiable reserves, and money buys no governance weight.
-5. **Migration of the DAF:** the DAF functions that proved useful are absorbed into PAP through an auditable migration, without importing federative points as general reputation.
-6. **Ratification of the member constitution:** a public ratification process by active members adopts a versioned constitution with rules for initiative, deliberation, ratification and revision.
+3. **Veto chain:** a veto signed by a member propagates through independent nodes, survives disconnection and a network partition, and stops the contested action in the layer that would have executed it.
+4. **Operational key separation:** repository signing keys, infrastructure access and contract updates move to multi-party threshold schemes co-signed by the judicial panel and the operational stewards.
+5. **Accountable value layer:** the three-sphere Dktron model ([`value-unit`](https://value.drayker.org)) runs as a reconciled ledger with verifiable reserves, and money buys no governance weight.
+6. **Migration of the DAF:** the DAF functions that proved useful are absorbed into PAP through an auditable migration, without importing federative points as general reputation.
+7. **Ratification of the member constitution:** a public ratification process by active members adopts a versioned constitution with rules for initiative, deliberation, ratification and revision.
 
 Until these criteria are met, founding stewardship keeps coherence and architectural fidelity. Any change to this bootstrap arrangement happens through a versioned update to this file that explains which authority is delegated, who can exercise it, which review and legitimacy process is operational, how bypass access changes and how the previous arrangement can be audited.
 
