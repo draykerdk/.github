@@ -2,7 +2,7 @@
 
 This document defines the governance structure of the Drayker organization (`draykerdk`): the governance horizon, the current founding-phase operational model, the constitutional separation of powers, and the criteria for the transition to member governance.
 
-The architecture follows *Do animal à superinteligência* (Hyadhuad), chapters 46, 47 and 51. Where this file and a component repository disagree about a component, the component's own contract in `.drayker/component.yml` states its evidence.
+Where this file and a component repository disagree about a component, the component's own contract in `.drayker/component.yml` states its evidence.
 
 ---
 
@@ -57,7 +57,7 @@ There is no active `community-review` branch. Historical documents that mention 
 
 ## 3. The constitutional architecture: separation of powers
 
-Complex organizations tend to degenerate into oligarchies of specialists. The contestation of a decision cannot end inside the same intelligence system that made it, and nobody can be the judge of their own cause (chapter 51). Whoever recommends, whoever judges and whoever executes must be able to be distinct people or instances. Drayker's long-term architecture therefore distributes authority across three branches:
+Complex organizations tend to degenerate into oligarchies of specialists. The contestation of a decision cannot end inside the same intelligence system that made it, and nobody can be the judge of their own cause. Whoever recommends, whoever judges and whoever executes must be able to be distinct people or instances. Drayker's long-term architecture therefore distributes authority across three branches:
 
 ```
                       ┌──────────────────────────────────────┐
@@ -117,7 +117,7 @@ Every veto carries its real grounds — the intention and motives behind it, the
 
 ### 3.5 What only members decide
 
-Dk Global decides within the space the constitution gives it. Members take part in each decision through representation, proposal and veto, and the boundary of that autonomy belongs to the members (chapter 47). Decisions on security and defense, on how much of a prediction is enough to restrict someone's freedom, and on changes to who holds which competence require prior constitutional deliberation.
+Dk Global decides within the space the constitution gives it. Members take part in each decision through representation, proposal and veto, and the boundary of that autonomy belongs to the members. Decisions on security and defense, on how much of a prediction is enough to restrict someone's freedom, and on changes to who holds which competence require prior constitutional deliberation.
 
 ---
 

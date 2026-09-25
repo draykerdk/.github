@@ -8,18 +8,18 @@ Participation is primarily voluntary and does not imply compensation, funding, e
 
 ## 1. Guiding principles
 
-Two principles from *Do animal à superinteligência* govern every contribution and discussion in the organization:
+Two principles govern every contribution and discussion in the organization:
 
 ### Kind to people, relentless with ideas
 
-The system is kind to people and relentless with ideas (chapter 49).
+The system is kind to people and relentless with ideas.
 
 - **Treat participants with dignity.** Personal attacks, ad hominem rhetoric, condescension and identity-based exclusion are not tolerated. People are ends, never instruments.
 - **Treat ideas with empirical rigor.** A hypothesis has to answer for what it promised to explain or achieve. Code must be tested, cryptography audited and assumptions questioned. Appeals to authority, marketing hype and ungrounded claims are rejected. A failed idea does not cost its author the place to learn, reformulate and keep contributing.
 
 ### Human authority over machine systems
 
-Automated tools, AI agents and algorithmic models assist our cognition; constitutional authority and ultimate responsibility remain with people (chapters 47 and 51).
+Automated tools, AI agents and algorithmic models assist our cognition; constitutional authority and ultimate responsibility remain with people.
 
 ---
 
@@ -72,6 +72,7 @@ When changing documentation:
 - name missing specifications plainly.
 - do not publish internal project-management status.
 - do not imply operational financial, medical, identity or global infrastructure where none exists.
+- state and argue each claim in the documentation itself. Do not rest it on a book or other publication as authority; cite research sources only where a claim depends on their evidence.
 
 Public documentation is written in English, the canonical language. Translations are not maintained by hand: readers use automatic translation, and native translation and localization are planned for the Drayker sites.
 
