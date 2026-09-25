@@ -111,7 +111,9 @@ A review ends with evidence of compliance, not merely with a new answer from the
 
 ### 3.4 The veto chain
 
-Vetoes, mandate revocations, ratification signatures and panel orders are recorded as signed entries in an append-only, hash-linked chain replicated across the [Dk Network](https://dknetwork.drayker.org) and verified by independent nodes, as specified in [UID](https://uid.drayker.org). Each entry points at the cryptographic address of the decision it concerns, so an action executed against a valid veto is detectable by any node. Dk Global can append proposals to the chain, never ratifications: those require member signatures and independent keys that no Dk process holds.
+Vetoes, mandate revocations, ratification signatures, triage outcomes and panel orders are recorded as signed entries in an append-only, hash-linked chain replicated across the [Dk Network](https://dknetwork.drayker.org) and verified by independent nodes, as specified in [UID](https://uid.drayker.org). Each entry points at the cryptographic address of the decision it concerns, so an action executed against a valid veto is detectable by any node.
+
+Every veto carries its real grounds — the intention and motives behind it, the scope it claims and the facts it rests on — even when its author stays anonymous. Vetoes are weighed by their grounds, not counted: a person counts once, and repeated grounds add weight but not new information. A single veto whose grounds bring information beyond the scope considered before the decision can by itself lead to an adjustment, after an advanced triage verifies the facts, establishes what they mean for the decision, screens for error and manipulation and prefers a bounded test to a general change. A contested triage goes to the judicial panel. Dk Global can append proposals to the chain, never ratifications: those require member signatures and independent keys that no Dk process holds.
 
 ### 3.5 What only members decide
 
@@ -148,7 +150,7 @@ The founding phase ends, and its authority transfers to the separated constituti
 
 1. **Presence and personhood verification ([UID](https://uid.drayker.org)):** members can authenticate and prove the credentials an interaction requires without a centralized biometric or cloud identity provider, with recovery and human recourse.
 2. **Sortition tooling:** verifiable sortition selects and rotates the members of the judicial panel.
-3. **Veto chain:** a veto signed by a member propagates through independent nodes, survives disconnection and a network partition, and stops the contested action in the layer that would have executed it.
+3. **Veto chain:** a veto signed with its grounds propagates through independent nodes, survives disconnection and a network partition, passes triage, and stops or adjusts the contested action in the layer that would have executed it.
 4. **Operational key separation:** repository signing keys, infrastructure access and contract updates move to multi-party threshold schemes co-signed by the judicial panel and the operational stewards.
 5. **Accountable value layer:** the three-sphere Dktron model ([`value-unit`](https://value.drayker.org)) runs as a reconciled ledger with verifiable reserves, and money buys no governance weight.
 6. **Migration of the DAF:** the DAF functions that proved useful are absorbed into PAP through an auditable migration, without importing federative points as general reputation.
