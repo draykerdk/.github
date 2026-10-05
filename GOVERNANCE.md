@@ -20,7 +20,7 @@ The transition between phases requires versioned rules, evidence and an auditabl
 
 ## 2. Current phase: founding research and development
 
-Drayker is in its founding research and development phase. The DAF, the councils, the judicial panel, PAP and any automated or federated decision system described across the ecosystem are proposed architecture. They are not represented here as operating institutions.
+Drayker is in its founding research and development phase. The DAF, the member councils, PAP and any automated or federated decision system described across the ecosystem are proposed architecture. They are not represented here as operating institutions.
 
 ### 2.1 Founding stewardship
 
@@ -57,7 +57,7 @@ There is no active `community-review` branch. Historical documents that mention 
 
 ## 3. The constitutional architecture: separation of powers
 
-Complex organizations tend to degenerate into oligarchies of specialists. The contestation of a decision cannot end inside the same intelligence system that made it, and nobody can be the judge of their own cause. Whoever recommends, whoever judges and whoever executes must be able to be distinct people or instances. Drayker's long-term architecture therefore distributes authority across three branches:
+Complex organizations tend to degenerate into oligarchies of specialists. The contestation of a decision cannot end inside the same intelligence system that made it: whoever decided cannot be the only one to examine their own decision. Whoever decides, whoever examines and whoever executes must be able to be distinct people or instances. Drayker's long-term architecture therefore distributes authority across three branches:
 
 ```
                       ┌──────────────────────────────────────┐
@@ -68,52 +68,48 @@ Complex organizations tend to degenerate into oligarchies of specialists. The co
          ┌───────────────────────────────┼───────────────────────────────┐
          ▼                               ▼                               ▼
 ┌───────────────────┐          ┌───────────────────┐          ┌────────────────────┐
-│   OPERATIONAL /   │          │    EPISTEMIC /    │          │  CONSTITUTIONAL /  │
-│   COORDINATION    │◄────────►│ TECHNICAL COUNCILS│◄────────►│  JUDICIAL PANEL    │
-│  (Implementation) │          │   (Peer Review)   │          │(Checks & Balances) │
+│   OPERATIONAL /   │          │     DECISION /    │          │   EXAMINATION /    │
+│   COORDINATION    │◄────────►│     DK GLOBAL     │◄────────►│  MEMBER COUNCILS   │
+│  (Implementation) │          │ (inside the       │          │ (one per question) │
+│                   │          │   constitution)   │          │                    │
 └───────────────────┘          └───────────────────┘          └────────────────────┘
          │                               │                               │
-         │ Executes initiatives,         │ Evaluates models,             │ Independent means;
-         │ maintains code, ships         │ audits cryptographic safety,  │ selected by lot;
-         │ protocols & infrastructure.   │ enforces epistemic rigor.     │ suspends contested
-         │                               │                               │ decisions, prevents
-         │                               │                               │ algorithmic or
-         │                               │                               │ plutocratic capture.
+         │ Executes initiatives,         │ Weighs and decides inside     │ Convened by members;
+         │ maintains code, ships         │ the space the constitution    │ best informed and
+         │ protocols & infrastructure.   │ gives it; revised by          │ most affected, with
+         │                               │ justified proposals and       │ Dk in the middle;
+         │                               │ vetoes.                       │ independent means.
 ```
 
 ### 3.1 The operational branch (coordination and execution)
 
 Responsible for day-to-day engineering, repository maintenance, release tagging and execution of active projects. In the founding phase, it is stewarded by the founding steward and key contributors. Whoever administers infrastructure answers for execution within previously distributed competences.
 
-### 3.2 The epistemic branch (technical councils — [`advices`](https://advices.drayker.org))
+### 3.2 Dk Global (decision inside the constitution — [`dk`](https://dk.drayker.org))
 
-Specialized groups formed by domain contributors to conduct peer review on:
+Dk Global decides only inside the space the members' constitution gives it: it allocates capacity when requests exceed it, organizes responses to emergencies, suspends risky executions and proposes smaller tests before larger commitments. Members take part in every decision through representation by their personal Dk, proposals and the justified veto, and a well-founded proposal or veto obliges the decision to be revised. Dk Global can propose a change to its own competences, like any member; it cannot ratify one. None of this operates during the founding phase; it is the long-term design.
 
-- cryptographic primitives and zero-knowledge validity.
-- cognitive architectures, attention-sovereign agents and protocol boundaries.
-- economic parameters, Dktron reserve ratios and capacity allocation models.
+### 3.3 Member councils ([`advices`](https://advices.drayker.org))
 
-Councils do not rule by fiat; their evaluations are recorded transparently as technical advisories and validation records.
+The examination path, so that operators and artificial agents — Dk Global included — never hold unchallengeable authority over members:
 
-### 3.3 The protective branch (Independent Member Judicial Panel)
-
-The supreme instance of human appeal, so that operators and artificial agents — Dk Global included — never hold unchallengeable authority over members:
-
-- **Sortition and fixed terms:** panel members are drawn periodically by lot from the membership, without conflict of interest with the matter, for a fixed term that no AI can revoke. Verifiable sortition tooling is part of the transition criteria below.
-- **Independent means:** the panel has authorized access to preserved records, technical support it can consult without the permission of the contested party, and signing keys separated from operational credentials and automated execution. The agent whose decision is under review cannot control those conditions alone.
-- **Protective competences:**
-  - suspension of allocation decisions taken by Dk, of automated model upgrades and of algorithmic revocations that threaten members' constitutional guarantees.
-  - arbitration of contested reputation disputes and orders to review algorithms that produce perverse effects or veiled discrimination.
-  - adjudication of grievances under the **situated contextual veto**, protecting directly affected members against systemic externalities.
+- **Formed for each question:** when a decision, a veto, a reputation dispute or an algorithm needs to be examined, members convene a council, and whoever convenes takes part. Dknowledge crosses the question with each member's links to it and calls the best-informed people on the matter and the people most affected by it. There are no standing seats and no fixed categories. When Dk Global's certainty about a decision is low, it convenes a council itself.
+- **With Dk in the middle:** the council debates with Dk, looks for contradictions and gaps and tests interpretations. Its conclusions are recorded and become the basis for revising decisions and vetoes. The same adaptive mechanism resolves small and large questions.
+- **Independent means:** the council has authorized access to preserved records, technical support it can consult without the permission of the contested party, and signing keys separated from operational credentials and automated execution. The agent whose decision is under review cannot control those conditions alone. The criteria Dknowledge uses to compose a council stay examinable, so that no one can pack it.
+- **What councils examine:**
+  - allocation decisions taken by Dk, automated model upgrades and algorithmic revocations that threaten members' constitutional guarantees, with the power to suspend them.
+  - contested reputation disputes, and algorithms that produce perverse effects or veiled discrimination.
+  - grievances under the **situated contextual veto**, protecting directly affected members against systemic externalities.
+  - technical questions such as cryptographic primitives, cognitive architectures, protocol boundaries, economic parameters and capacity allocation models, recorded as technical advisories and validation records.
   - a substitution path, with access limited to what is necessary, when the usual operator refuses or is unavailable; and proceedings to replace a steward in case of proven constitutional violation, capture or irremediable conflict of interest.
 
-A review ends with evidence of compliance, not merely with a new answer from the agent.
+A council does not replace the members' constitutional process. A review ends with evidence of compliance, not merely with a new answer from the agent.
 
 ### 3.4 The veto chain
 
-Vetoes, mandate revocations, ratification signatures, triage outcomes and panel orders are recorded as signed entries in an append-only, hash-linked chain replicated across the [Dk Network](https://dknetwork.drayker.org) and verified by independent nodes, as specified in [UID](https://uid.drayker.org). Each entry points at the cryptographic address of the decision it concerns, so an action executed against a valid veto is detectable by any node.
+Vetoes, mandate revocations, ratification signatures, triage outcomes and council conclusions are recorded as signed entries in an append-only, hash-linked chain replicated across the [Dk Network](https://dknetwork.drayker.org) and verified by independent nodes, as specified in [UID](https://uid.drayker.org). Each entry points at the cryptographic address of the decision it concerns, so an action executed against a valid veto is detectable by any node.
 
-Every veto carries its real grounds — the intention and motives behind it, the scope it claims and the facts it rests on — even when its author stays anonymous. Vetoes are weighed by their grounds, not counted: a person counts once, and repeated grounds add weight but not new information. A single veto whose grounds bring information beyond the scope considered before the decision can by itself lead to an adjustment, after an advanced triage verifies the facts, establishes what they mean for the decision, screens for error and manipulation and prefers a bounded test to a general change. A contested triage goes to the judicial panel. Dk Global can append proposals to the chain, never ratifications: those require member signatures and independent keys that no Dk process holds.
+Every veto carries its real grounds — the intention and motives behind it, the scope it claims and the facts it rests on — even when its author stays anonymous. Vetoes are weighed by their grounds, not counted: a person counts once, and repeated grounds add weight but not new information. A single veto whose grounds bring information beyond the scope considered before the decision can by itself lead to an adjustment, after an advanced triage verifies the facts, establishes what they mean for the decision, screens for error and manipulation and prefers a bounded test to a general change. A contested triage goes to a member council convened for that question. Dk Global can append proposals to the chain, never ratifications: those require member signatures and independent keys that no Dk process holds.
 
 ### 3.5 What only members decide
 
@@ -125,7 +121,7 @@ Dk Global decides within the space the constitution gives it. Members take part 
 
 Drayker rejects tokenized or wealth-weighted governance:
 
-1. **Dktron is capacity, not equity.** Dktron is an internal capacity accounting unit. Holding Dktron grants no voting share, no seat and no legislative authority over the organization.
+1. **Dktron is capacity, not equity.** Dktron is an internal capacity accounting unit. Holding Dktron grants no decision weight, no seat and no legislative authority over the organization.
 2. **Reputation is contextual.** Contribution history reflects verified work in specific domains; it cannot be bought, mortgaged or transferred, nor converted into unilateral veto power. DAF federative points are a separate, transitional ledger.
 3. **Human dignity is not a balance.** Constitutional standing rests on membership and verified participation, never on financial capitalization.
 
@@ -149,9 +145,9 @@ Decisions that affect the public ecosystem are recorded in public Git history. I
 The founding phase ends, and its authority transfers to the separated constitutional branches, when all of the following are demonstrated:
 
 1. **Presence and personhood verification ([UID](https://uid.drayker.org)):** members can authenticate and prove the credentials an interaction requires without a centralized biometric or cloud identity provider, with recovery and human recourse.
-2. **Sortition tooling:** verifiable sortition selects and rotates the members of the judicial panel.
+2. **Member councils:** members can convene a council for a question, Dknowledge composes it by criteria that stay examinable, and its conclusions reach the revision of decisions in the layer that executes them.
 3. **Veto chain:** a veto signed with its grounds propagates through independent nodes, survives disconnection and a network partition, passes triage, and stops or adjusts the contested action in the layer that would have executed it.
-4. **Operational key separation:** repository signing keys, infrastructure access and contract updates move to multi-party threshold schemes co-signed by the judicial panel and the operational stewards.
+4. **Operational key separation:** repository signing keys, infrastructure access and contract updates move to multi-party threshold schemes co-signed through the members' constitutional process and by the operational stewards.
 5. **Accountable value layer:** the three-sphere Dktron model ([`value-unit`](https://value.drayker.org)) runs as a reconciled ledger with verifiable reserves, and money buys no governance weight.
 6. **Migration of the DAF:** the DAF functions that proved useful are absorbed into PAP through an auditable migration, without importing federative points as general reputation.
 7. **Ratification of the member constitution:** a public ratification process by active members adopts a versioned constitution with rules for initiative, deliberation, ratification and revision.
