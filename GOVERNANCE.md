@@ -87,7 +87,7 @@ Responsible for day-to-day engineering, repository maintenance, release tagging 
 
 ### 3.2 Dk Global (decision inside the constitution — [`dk`](https://dk.drayker.org))
 
-Dk Global decides only inside the space the members' constitution gives it: it allocates capacity when requests exceed it, organizes responses to emergencies, suspends risky executions and proposes smaller tests before larger commitments. Members take part in every decision through representation by their personal Dk, proposals and the justified veto, and a well-founded proposal or veto obliges the decision to be revised. Dk Global can propose a change to its own competences, like any member; it cannot ratify one. None of this operates during the founding phase; it is the long-term design.
+Dk Global decides only inside the space the members' constitution gives it: it allocates capacity when requests exceed it, organizes responses to emergencies, suspends risky executions and proposes smaller tests before larger commitments. Members take part in every decision through representation by their personal Dk, proposals and the justified veto, and a well-founded proposal or veto obliges the decision to be revised. Dk Global can propose a change to its own competences; it cannot ratify one. Outside the constitution, it decides and executes autonomously, and members can make a well-justified veto. None of this operates during the founding phase; it is the long-term design.
 
 ### 3.3 Member councils ([`advices`](https://advices.drayker.org))
 
@@ -113,7 +113,7 @@ Every veto carries its real grounds — the intention and motives behind it, the
 
 ### 3.5 What only members decide
 
-Dk Global decides within the space the constitution gives it. Members take part in each decision through representation, proposal and veto, and the boundary of that autonomy belongs to the members. Decisions on security and defense, on how much of a prediction is enough to restrict someone's freedom, and on changes to who holds which competence require prior constitutional deliberation.
+Dk Global decides within the space the constitution gives it. Members take part in each decision through representation, proposal and veto, and the boundary of that autonomy belongs to the members. Decisions on security and defense and on how much of a prediction is enough to restrict someone's freedom require prior constitutional deliberation by the members. A change to who holds which competence is a constitutional change. Every constitutional change starts from a well-informed, validated project built jointly with Dk Global and nearly all members of the highest levels. Dk Global presents an approval or an alternative, and a change that is not compatible with the kernel is blocked until the kernel itself changes.
 
 ---
 
