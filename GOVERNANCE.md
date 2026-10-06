@@ -122,7 +122,7 @@ Dk Global decides within the space the constitution gives it. Members take part 
 Drayker rejects tokenized or wealth-weighted governance:
 
 1. **Dktron is capacity, not equity.** Dktron is an internal capacity accounting unit. Holding Dktron grants no decision weight, no seat and no legislative authority over the organization.
-2. **Reputation is contextual.** Contribution history reflects verified work in specific domains; it cannot be bought, mortgaged or transferred, nor converted into unilateral veto power. The one transferable kind is the reward, earned by contributing capacity such as computing, which gives faster or priority access to resources and carries no governance weight. DAF federative points are a separate, transitional ledger.
+2. **Reputation is contextual.** Contribution history reflects verified work in specific domains; it cannot be bought, mortgaged or transferred, nor converted into unilateral veto power. The one transferable kind is the reward, earned by contributing capacity such as computing or by financing the network, which gives faster or priority access to resources and carries no governance weight. DAF federative points are a separate, transitional ledger.
 3. **Human dignity is not a balance.** Constitutional standing rests on membership and verified participation, never on financial capitalization.
 
 ---
