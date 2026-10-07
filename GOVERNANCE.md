@@ -115,6 +115,8 @@ Every veto carries its real grounds — the intention and motives behind it, the
 
 Dk Global decides within the space the constitution gives it. Members take part in each decision through representation, proposal and veto, and the boundary of that autonomy belongs to the members. Decisions on security and defense and on how much of a prediction is enough to restrict someone's freedom require prior constitutional deliberation by the members. A change to who holds which competence is a constitutional change. Every constitutional change starts from a well-informed, validated project built jointly with Dk Global and nearly all members of the highest levels. Dk Global presents an approval or an alternative, and a change that is not compatible with the kernel is blocked until the kernel itself changes.
 
+The constitution of rights and duties is ratified by members with the weight of each one's reputation, which cannot be transferred. The kernel core, the base layer of the constitution held in [BSDK](https://bsdk.drayker.org), changes differently: a change obliges every node to update to the new core and requires the explicit agreement of all Dzwecks, the member level of those who take on vital functions. That agreement is a competence of the level, not a weight of reputation.
+
 ---
 
 ## 4. Anti-plutocratic guarantee
