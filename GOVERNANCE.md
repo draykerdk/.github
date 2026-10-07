@@ -1,6 +1,6 @@
-# Drayker Organization Governance
+# Drayker Governance
 
-This document defines the governance structure of the Drayker organization (`draykerdk`): the governance horizon, the current founding-phase operational model, the constitutional separation of powers, and the criteria for the transition to member governance.
+This document defines the governance of Drayker, as exercised in the `draykerdk` GitHub organization: the governance horizon, the current founding-phase operational model, the constitutional separation of powers, and the criteria for the transition to member governance.
 
 Where this file and a component repository disagree about a component, the component's own contract in `.drayker/component.yml` states its evidence.
 
@@ -11,7 +11,7 @@ Where this file and a component repository disagree about a component, the compo
 Drayker's governance is designed to evolve through three explicit phases. These are architectural boundaries, not a schedule or a claim that later institutions already operate. The objective Drayker gives itself is to be consolidated, with Dk Global fully operating, by 2033; each phase is still measured by what works, not by the date (see [Direction](https://dknowledge.drayker.org/roadmap/DIRECTION/)).
 
 1. **Founding phase — current.** The initial authority belongs to the **Embassy of Drayker**, the core that founds the construction and answers for it until the system works as it was designed. On GitHub, that authority is exercised as documented in section 2.
-2. **Transitional scaffold — DAF and DFMP.** The [DAF](https://daf.drayker.org) is the first phase of distributing the founding authority: a bounded, federative structure for coordination, contribution and resources while the durable environment cannot yet carry those functions. It federates autonomous units, the groups and organizations of people working on different questions and projects in Drayker, and it is a basic and primitive form of PAP implemented now, testing its dynamics as the very way Drayker is built. [DFMP](https://dfmp.drayker.org) is the proposal process through which papers are discussed, validated and re-evaluated. The initial phase of the DAF may use an external substrate such as ICP provisionally, to experiment with units of account; it is not a constitutional dependency.
+2. **Transition — DAF and DFMP.** The [DAF](https://daf.drayker.org) is the first phase of distributing the founding authority: a bounded, federative structure for coordination, contribution and resources while the durable environment cannot yet carry those functions. It federates autonomous units, the groups and organizations of people working on different questions and projects in Drayker, and it is a basic and primitive form of PAP, implemented now on GitHub (Phase 0): its rules, instruments and public record exist. No unit has been recorded and no assembly has been held yet. Its dynamics are tested as the very way Drayker is built. [DFMP](https://dfmp.drayker.org) is the proposal process through which papers are discussed, validated and re-evaluated. The initial phase of the DAF may use an external substrate such as ICP provisionally, to experiment with units of account; it is not a constitutional dependency.
 3. **Durable member constitution — PAP and members.** As [PAP (Projects & Applications)](https://pap.drayker.org) matures, projects and applications carry their own participants, Dknowledge, specialized Dks, rules and resources, and the DAF functionally dissolves into PAP. Members govern through a versioned constitution. Territorial embassies, created by agreements with countries and governments and most of the time an autonomous zone on territory a country cedes, are a different institution from the founding Embassy. Pure autonomous zones lie on the high seas, where no state needs to cede territory.
 
 The transition between phases requires versioned rules, evidence and an auditable migration. DAF federative points are transitional records and must not become inherited or permanent authority inside PAP.
@@ -20,7 +20,7 @@ The transition between phases requires versioned rules, evidence and an auditabl
 
 ## 2. Current phase: founding research and development
 
-Drayker is in its founding research and development phase. The DAF, the member councils, PAP and any automated or federated decision system described across the ecosystem are proposed architecture. They are not represented here as operating institutions.
+Drayker is in its founding research and development phase. The DAF is implemented now on GitHub (Phase 0), as described in section 1, and no unit has been recorded and no assembly has been held yet. The member councils, PAP and any automated or federated decision system described across the ecosystem are proposed architecture. They are not represented here as operating institutions.
 
 ### 2.1 Founding stewardship
 
@@ -70,11 +70,11 @@ Complex organizations tend to degenerate into oligarchies of specialists. The co
 ┌───────────────────┐          ┌───────────────────┐          ┌────────────────────┐
 │   OPERATIONAL /   │          │     DECISION /    │          │   EXAMINATION /    │
 │   COORDINATION    │◄────────►│     DK GLOBAL     │◄────────►│  MEMBER COUNCILS   │
-│  (Implementation) │          │ (inside the       │          │ (one per question) │
+│  (Implementation) │          │ (outside the      │          │ (one per question) │
 │                   │          │   constitution)   │          │                    │
 └───────────────────┘          └───────────────────┘          └────────────────────┘
          │                               │                               │
-         │ Executes initiatives,         │ Weighs and decides inside     │ Convened by members;
+         │ Executes initiatives,         │ Decides and executes in       │ Convened by members;
          │ maintains code, ships         │ the space the constitution    │ best informed and
          │ protocols & infrastructure.   │ gives it; revised by          │ most affected, with
          │                               │ justified proposals and       │ Dk in the middle;
@@ -85,9 +85,9 @@ Complex organizations tend to degenerate into oligarchies of specialists. The co
 
 Responsible for day-to-day engineering, repository maintenance, release tagging and execution of active projects. In the founding phase, it is stewarded by the founding steward and key contributors. Whoever administers infrastructure answers for execution within previously distributed competences.
 
-### 3.2 Dk Global (decision inside the constitution — [`dk`](https://dk.drayker.org))
+### 3.2 Dk Global (autonomous decision outside the constitution, [`dk`](https://dk.drayker.org))
 
-Dk Global decides only inside the space the members' constitution gives it: it allocates capacity when requests exceed it, organizes responses to emergencies, suspends risky executions and proposes smaller tests before larger commitments. Members take part in every decision through representation by their personal Dk, proposals and the justified veto, and a well-founded proposal or veto obliges the decision to be revised. Dk Global can propose a change to its own competences; it cannot ratify one. Outside the constitution, it decides and executes autonomously, and members can make a well-justified veto. None of this operates during the founding phase; it is the long-term design.
+On matters outside the constitution, within the space it grants, Dk Global decides and executes autonomously; members can make a well-justified veto, which obliges review. Within that space it allocates capacity when requests exceed it, organizes responses to emergencies, suspends risky executions and proposes smaller tests before larger commitments. Members take part in every decision through representation by their personal Dk, proposals and the justified veto, and a well-founded proposal or veto obliges the decision to be revised. Dk Global can propose a change to its own competences; it cannot ratify one. None of this operates during the founding phase; it is the long-term design.
 
 ### 3.3 Member councils ([`advices`](https://advices.drayker.org))
 
@@ -121,7 +121,7 @@ Dk Global decides within the space the constitution gives it. Members take part 
 
 Drayker rejects tokenized or wealth-weighted governance:
 
-1. **Dktron is capacity, not equity.** Dktron is an internal capacity accounting unit. Holding Dktron grants no decision weight, no seat and no legislative authority over the organization.
+1. **Dktron is capacity, not equity.** Dktron is an internal capacity accounting unit. Holding Dktron grants no decision weight, no seat and no legislative authority over Drayker.
 2. **Reputation is contextual.** Contribution history reflects verified work in specific domains; it cannot be bought, mortgaged or transferred, nor converted into unilateral veto power. The one transferable kind is the reward, earned by contributing capacity such as computing or by financing the network, which gives faster or priority access to resources and carries no governance weight. DAF federative points are a separate, transitional ledger.
 3. **Human dignity is not a balance.** Constitutional standing rests on membership and verified participation, never on financial capitalization.
 
