@@ -8,7 +8,7 @@ Participation is primarily voluntary and does not imply compensation, funding, e
 
 ## 1. Guiding principles
 
-Two principles govern every contribution and discussion in the organization:
+Two principles govern every contribution and discussion in Drayker:
 
 ### Kind to people, relentless with ideas
 
