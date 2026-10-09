@@ -1,6 +1,6 @@
 # Drayker
 
-Drayker is a supersystem in its founding phase, non-profit and volunteer-built. It is building civilizational infrastructure in which people keep creating, discovering and learning alongside intelligence that carries the rest — and where what gets produced expands common capacity instead of concentrating in an external platform.
+Drayker is a supersystem in its founding phase, built by volunteers, with no owner, no shareholders and no profit distribution. It is building civilizational infrastructure in which people keep creating, discovering and learning alongside intelligence that carries the rest — and where what gets produced expands common capacity instead of concentrating in an external platform.
 
 That takes a **method** for composing work, **Dk** as distributed intelligence, **Dknowledge** as distributed memory, **PAP** as the environment where intentions become projects and applications, and an evolving **member constitution** for holding decisions and resources in common. Dk's technical name is Distributed Kernel; that describes its architecture, not the whole of what it is.
 
