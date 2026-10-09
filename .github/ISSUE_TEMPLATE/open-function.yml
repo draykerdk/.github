@@ -2,12 +2,14 @@ name: Open function
 description: Define a concrete contribution that one person can deliver.
 title: "[Open function] "
 labels:
-  - open-function
+  - proposed-function
 body:
   - type: markdown
     attributes:
       value: |
         An open function needs a concrete result and an entry point. Do not use this form for a broad vision or an internal management task.
+
+        This form labels the issue `proposed-function`. A maintainer reviews the proposal and applies `open-function` once it is reviewed. Only reviewed functions appear on the [open functions board](https://drayker.org/fn/).
   - type: textarea
     id: problem
     attributes:
