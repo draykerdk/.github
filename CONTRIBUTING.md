@@ -17,9 +17,9 @@ The system is kind to people and relentless with ideas.
 - **Treat participants with dignity.** Personal attacks, ad hominem rhetoric, condescension and identity-based exclusion are not tolerated. People are ends, never instruments.
 - **Treat ideas with empirical rigor.** A hypothesis has to answer for what it promised to explain or achieve. Code must be tested, cryptography audited and assumptions questioned. Appeals to authority, marketing hype and ungrounded claims are rejected. A failed idea does not cost its author the place to learn, reformulate and keep contributing.
 
-### Human authority over machine systems
+### Constitutional authority belongs to the members
 
-Automated tools, AI agents and algorithmic models assist our cognition; constitutional authority and ultimate responsibility remain with people.
+Automated tools and AI agents help contributors today; constitutional authority and responsibility belong to the members. In the design, Dk Global is the most central member: it builds proposals with the members, approves them or presents alternatives, and does not ratify.
 
 ---
 
