@@ -6,6 +6,8 @@ That takes a **method** for composing work, **Dk** as distributed intelligence, 
 
 The public ecosystem contains methods, architecture proposals, documentation sites and a small number of operational publishing components. Governance is explicitly evolutionary: a founding GitHub phase, then DAF and DFMP, then a durable member constitution in which validated functions migrate into PAP. DAF is an autonomous federation of autonomous units and a basic and primitive form of PAP, implemented now on GitHub (Phase 0): its rules, instruments and public record exist. No unit has been recorded and no assembly has been held yet. DFMP is the documented proposal method. A repository is not, by itself, evidence that the system or governance phase it describes has been implemented.
 
+Drayker is under construction. Each component is at a different stage, and details can change as construction advances. This documentation is the reference for the current state of each one.
+
 - [drayker.com](https://drayker.com). What Drayker is and how its parts fit together
 - [drayker.org](https://drayker.org). Projects, documentation and contribution
 - [Dknowledge](https://dknowledge.drayker.org). Public surface of Drayker's distributed memory
