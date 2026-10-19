@@ -1,6 +1,6 @@
 # Contributing to Drayker
 
-Drayker accepts research, documentation, design, code, review, translation, governance analysis and well-modelled criticism.
+Drayker accepts research, documentation, design, code, review, governance analysis and well-modelled criticism.
 
 Participation is primarily voluntary and does not imply compensation, funding, employment, ownership, tokens or future access to products or services.
 
@@ -31,7 +31,7 @@ The project map and component pages are available at [drayker.org](https://drayk
 
 - **Method, protocol or constitutional proposals** follow [DFMP](https://dfmp.drayker.org), the proposal process of the DFM method. Open an issue in `draykerdk/dfmp` before writing a large pull request.
 - **Code and implementations**: fixes, protocol implementations and tooling in the repository they belong to.
-- **Documentation**: specifications, conceptual clarifications, translations and guides.
+- **Documentation**: specifications, conceptual clarifications and guides.
 - **Open science**: research, modelling and health under [Open science](https://science.drayker.org).
 
 ---
@@ -39,7 +39,7 @@ The project map and component pages are available at [drayker.org](https://drayk
 ## 3. Contribution flow
 
 1. **Open or find an issue.** A useful issue states the problem, evidence, boundaries and expected result.
-2. **Claim the work.** Comment with a short plan. If an existing claim becomes inactive, discuss it in the issue before taking over.
+2. **Claim the work.** Comment with a short plan. If a claim has been silent for two weeks, ask in the thread; if there is no answer within three days, anyone may take the function over by saying so in the thread.
 3. **Create one branch per contribution.**
 
    ```bash
@@ -57,7 +57,9 @@ Contributions are licensed under the repository's license (documentation typical
 
 ## 4. Open functions
 
-An issue carrying `open-function` is intended to be small enough for one contributor to deliver. Optional `skill:*`, `level:*` and `effort:*` labels improve discovery.
+An issue carrying `open-function` has been reviewed and is intended to be small enough for one contributor to deliver. Optional `skill:*`, `level:*` and `effort:*` labels improve discovery.
+
+New functions are proposed with the **Open function** issue form, which applies `proposed-function`. A maintainer reviews the proposal and applies `open-function` once it is reviewed. Only reviewed functions appear on the [open functions board](https://drayker.org/fn/).
 
 Do not add `open-function` to a speculative placeholder. The issue needs a concrete deliverable and an entry point.
 
@@ -80,6 +82,6 @@ Public documentation is written in English, the canonical language. Translations
 
 ## 6. Reviews and authority
 
-Review the contribution against its stated scope and evidence. Disagreement is useful when it is specific, sourced and directed at the work rather than the person. Technical councils provide peer review; merge authority during the founding phase is specified in [GOVERNANCE.md](./GOVERNANCE.md).
+Review the contribution against its stated scope and evidence. Disagreement is useful when it is specific, sourced and directed at the work rather than the person. Peer review happens on the pull request; member councils, formed for each question, are proposed and not yet operating ([GOVERNANCE.md](./GOVERNANCE.md) §3.3). Merge authority during the founding phase is specified in [GOVERNANCE.md](./GOVERNANCE.md).
 
 For security-sensitive reports, follow [SECURITY.md](./SECURITY.md) instead of publishing exploit details.
