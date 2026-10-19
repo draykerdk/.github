@@ -63,6 +63,8 @@ New functions are proposed with the **Open function** issue form, which applies 
 
 Do not add `open-function` to a speculative placeholder. The issue needs a concrete deliverable and an entry point.
 
+A delivered function can be claimed in DAF's record with the [claim form](https://github.com/draykerdk/daf/issues/new?template=claim.yml).
+
 ---
 
 ## 5. Public claims

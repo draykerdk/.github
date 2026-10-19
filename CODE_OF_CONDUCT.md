@@ -20,6 +20,6 @@ Drayker's public spaces exist so people can examine ideas, evidence and implemen
 
 ## Enforcement
 
-Maintainers may edit, hide, lock or remove content and restrict participation when necessary to protect contributors or the integrity of the work. During the founding phase, final enforcement responsibility rests with the steward identified in [GOVERNANCE.md](./GOVERNANCE.md).
+Maintainers may edit, hide, lock or remove content and restrict participation when necessary to protect contributors or the integrity of the work. During the founding phase, final enforcement responsibility rests with the steward identified in [GOVERNANCE.md](./GOVERNANCE.md). Grounded criticism, including criticism of Drayker, of a decision or of the steward, is never a reason for enforcement.
 
 For a sensitive report, request a private channel without including the sensitive details publicly.
