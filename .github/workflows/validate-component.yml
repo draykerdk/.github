@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Check out component
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Check out organization validator
         uses: actions/checkout@v6
@@ -28,3 +30,11 @@ jobs:
 
       - name: Validate component contract
         run: ruby .drayker-governance/scripts/validate-component.rb .drayker/component.yml
+
+      - name: Check the public record
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: python3 .drayker-governance/scripts/check-public-record.py
