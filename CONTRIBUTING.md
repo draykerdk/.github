@@ -10,9 +10,9 @@ Participation is primarily voluntary and does not imply compensation, funding, e
 
 Two principles govern every contribution and discussion in Drayker:
 
-### Kind to people, relentless with ideas
+### Gentle with people and ruthless with ideas
 
-The system is kind to people and relentless with ideas.
+The system is gentle with people and ruthless with ideas.
 
 - **Treat participants with dignity.** Personal attacks, ad hominem rhetoric, condescension and identity-based exclusion are not tolerated. People are ends, never instruments.
 - **Treat ideas with empirical rigor.** A hypothesis has to answer for what it promised to explain or achieve. Code must be tested, cryptography audited and assumptions questioned. Appeals to authority, marketing hype and ungrounded claims are rejected. A failed idea does not cost its author the place to learn, reformulate and keep contributing.
