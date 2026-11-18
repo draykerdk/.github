@@ -19,7 +19,7 @@ The system is gentle with people and ruthless with ideas.
 
 ### Constitutional authority belongs to the members
 
-Automated tools and AI agents help contributors today; constitutional authority and responsibility belong to the members. In the design, the global Dk is the most central member: it builds proposals with the members, approves them or presents alternatives, and does not ratify.
+Automated tools and AI agents help contributors today; constitutional authority and responsibility belong to the members. In the design, the global Dk is the most central member: it builds proposals with the members, validates what holds or returns gaps with grounded alternatives in an evolutionary dialogue, and does not ratify.
 
 ---
 
